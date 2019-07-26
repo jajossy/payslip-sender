@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NominalDataModelStoreContainer" CdmEntityContainer="NominalDataEntities">
+    <EntitySetMapping Name="StaffDatas">
+      <EntityTypeMapping TypeName="NominalDataModel.StaffData">
+        <MappingFragment StoreEntitySet="StaffData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Fullname" ColumnName="Fullname" />
+          <ScalarProperty Name="IppisNo" ColumnName="IppisNo" />
+          <ScalarProperty Name="PinNo" ColumnName="PinNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
